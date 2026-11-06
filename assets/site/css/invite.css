@@ -1,0 +1,4 @@
+.custom-audio-player{bottom:10px;left:20px;position:fixed;text-align:center;z-index:900}.custom-audio-player button{background-color:red;border:none;border-radius:50%;box-shadow:0 0 10px rgba(0,0,0,.4);cursor:pointer!important;height:45px;line-height:1;margin:0;padding:0;text-align:center;width:45px}@media (max-width:768px){.custom-audio-player{bottom:20px;left:20px}.custom-audio-player .custom-audio-player-icon{font-size:2.5rem!important}}
+.bg-gold{
+  background-color: #D4AF37;
+}

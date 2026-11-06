@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda Maria Guadalupe Alvarado Lizardi & Sergio Roberto Reyes Flores</title>
+
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="Nuestra Boda Maria &amp; Sergio">
+    <meta property="og:description" content="¡Te invito a celebrar conmigo este día tan especial!">
+    <meta property="og:image" content="https://invitarweb.github.io/MariaSergio/f.png">
+    <meta property="og:url" content="https://invitarweb.github.io/MariaSergio/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="./assets/site/vendor/lightgallery/css/lightgallery-bundle.min.css">
+
+    <!-- Main Theme Styles + Bootstrap -->
+    <link rel="stylesheet" media="screen" href="./assets/site/css/theme.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&amp;display=swap" rel="stylesheet">
+
+    <style>
+Sergio
+      
+      /* ============ PALETA: NEGRO Y DORADO ============ */
+      :root,
+      [data-bs-theme="dark"],
+      [data-bs-theme="light"] {
+        --gold: #d4af37;          /* dorado principal (títulos, iconos, botones) */
+        --gold-soft: #e9d28a;     /* dorado claro (textos de lectura) */
+        --gold-deep: #9c7a1f;     /* dorado oscuro (hover, bordes tenues) */
+        --black: #000000;
+        --panel: #14110a;         /* negro cálido para recuadros */
+        --color-main: var(--gold);
+
+        --si-body-color: var(--gold-soft);
+        --si-body-bg: #000;
+        --si-heading-color: var(--gold);
+        --si-link-color: var(--gold);
+        --si-link-color-rgb: 212, 175, 55;
+        --si-link-hover-color: #f0d36b;
+        --si-border-color: rgba(212, 175, 55, 0.35);
+        --si-gray-600: var(--gold-deep);
+        --si-user-selection-color: var(--gold);
+      }
+
+      html, body { background: #000 !important; }
+
+      /* Tipografías */
+      .playwrite-au-tas-400, h1, h2, h3, h4, h5, h6 {
+        font-family: "Playwrite AU TAS", cursive !important;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      body, p, .handlee-regular {
+        font-family: "Handlee", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--gold-soft);
+      }
+      h1, h2, h3, h4, h5, h6 { color: var(--gold); }
+
+      .text-shadow-black { text-shadow: 0 0 10px rgba(0, 0, 0, 0.85); }
+      .color-main { color: var(--gold) !important; }
+      .color-secondary { color: #000 !important; }
+      .text-body { color: var(--gold-soft) !important; }
+      .text-light { color: #fff !important; }
+      .background-main { background-color: #000 !important; }
+      .bg-gradient-primary { background: linear-gradient(45deg, #000, var(--gold)) !important; }
+
+      /* Selección de texto visible (antes era negro sobre negro) */
+      ::selection, ::-moz-selection { background-color: var(--gold) !important; color: #000 !important; }
+
+      /* Recuadros (sección Recepción y Mesa de regalos) */
+      .bg-light { background-color: var(--panel) !important; border: 1px solid rgba(212, 175, 55, 0.35); }
+
+      /* Botones */
+      .btn-primary {
+        color: #000 !important;
+        background-color: var(--gold);
+        border-color: var(--gold);
+        font-weight: 700;
+      }
+      .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+        color: var(--gold) !important;
+        background-color: #000 !important;
+        border-color: var(--gold) !important;
+      }
+      .btn-outline-primary {
+        --si-btn-color: var(--gold);
+        --si-btn-border-color: var(--gold);
+        --si-btn-hover-color: #000;
+        --si-btn-hover-bg: var(--gold);
+        --si-btn-hover-border-color: var(--gold);
+        --si-btn-active-color: #000;
+        --si-btn-active-bg: var(--gold);
+        --si-btn-active-border-color: var(--gold);
+        color: var(--gold);
+        border-color: var(--gold);
+      }
+      .btn-outline-primary:hover { color: #000 !important; background-color: var(--gold) !important; }
+      .btn-check:checked+.btn, :not(.btn-check)+.btn:active, .btn:first-child:active, .btn.active, .btn.show {
+        background-color: var(--gold) !important;
+        border-color: var(--gold) !important;
+      }
+
+      /* Divisores del programa (antes negros sobre fondo negro) */
+      .border-end-md { border-right: 1px solid var(--gold-deep) !important; }
+      @media (max-width: 767.98px) { .border-end-md { border-right: 0 !important; } }
+
+      /* Iconos y cita */
+      .bx { color: black; }
+      .blockquote { color: var(--gold-soft); }
+      .blockquote-footer, .blockquote-footer cite { color: var(--gold) !important; }
+
+      /* Carrusel */
+      .swiper-pagination-bullet { background-color: var(--gold-deep) !important; }
+      .swiper-pagination-bullet-active { background-color: var(--gold) !important; }
+      .btn-prev, .btn-next { --si-carousel-nav-btn-bg: #000; --si-carousel-nav-btn-color: var(--gold); }
+      .btn-prev:not(.bg-transparent):hover, .btn-next:not(.bg-transparent):hover {
+        background-color: var(--gold) !important;
+        color: #000 !important;
+      }
+
+      /* CAJA DE TEXTO (aviso "inolvidable") + campos de formulario:
+         fondo negro, letra dorada, foco dorado (antes letra oscura sobre gris,
+         y sombra roja en el foco) */
+      .alert,
+      .alert-secondary {
+        --si-alert-bg: var(--panel);
+        --si-alert-color: var(--gold-soft);
+        --si-alert-border-color: var(--gold);
+        background-color: var(--panel) !important;
+        color: var(--gold-soft) !important;
+        border: 1px solid var(--gold) !important;
+        border-radius: 0.75rem;
+      }
+      .alert u { color: var(--gold); text-decoration-color: var(--gold); }
+
+      .form-control, .form-select, textarea.form-control {
+        color: var(--gold-soft) !important;
+        background-color: #000 !important;
+        border: 1px solid var(--gold-deep) !important;
+        caret-color: var(--gold);
+      }
+      .form-control::placeholder, textarea.form-control::placeholder { color: var(--gold-deep) !important; opacity: 1; }
+      .form-select:focus, .form-control:focus, textarea.form-control:focus {
+        border-color: var(--gold) !important;
+        box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.3) !important;
+      }
+      .form-check-input:checked { background-color: var(--gold) !important; border-color: var(--gold) !important; }
+      .form-label, label { color: var(--gold); }
+
+      /* Pie de página en negro (antes blanco) */
+      .footer-black, .footer-black footer { background: #000 !important; }
+
+      .parallax-img-section { min-height: 750px !important; }
+      .parallax-video-section { min-height: 550px !important; }
+      .line-height-1 { line-height: 1 !important; }
+
+      .custom-audio-player button { background-color: var(--gold) !important; }
+      .custom-audio-player .custom-audio-player-icon { color: #000 !important; }
+      .custom-tooltip { --bs-tooltip-bg: var(--gold); }
+      .btn-video { background-color: #000 !important; }
+      .btn-video:hover, .btn-video:active {
+        background-color: var(--gold) !important;
+        border-color: var(--gold) !important;
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.5) !important;
+      }
+    </style>
+
+    <link rel="stylesheet" media="screen" href="./assets/site/css/invite.css">
+  </head>
+
+  <!-- Body -->
+  <body style="background: #000;">
+
+    <main class="page-wrapper" id="app">
+
+      <reproductor-audio url-file="audio.mp3"></reproductor-audio>
+
+      <!-- Hero slider + BG parallax -->
+      <section class="jarallax bg-dark vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 vh-100" style="background-color: rgba(0,0,0,0.3);"></span>
+        <div class="jarallax-img" style="background-image: url(./storage/invitation-types/demos/boda/portada.jpg); background-position: center center !important; background-size: cover !important;"></div>
+        <div class="position-relative text-center zindex-5 overflow-hidden vh-100">
+
+          <div class="container text-center vh-100">
+            <div class="row justify-content-center vh-100">
+              <div class="col-xl-8 col-lg-9 col-md-10 col-11 align-self-end">
+                <div class="swiper pt-5 pb-4 py-md-5" data-swiper-options='{
+                  "effect": "fade",
+                  "speed": 500,
+                  "autoplay": {
+                    "delay": 5500,
+                    "disableOnInteraction": false
+                  },
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "prevEl": "#hero-prev",
+                    "nextEl": "#hero-next"
+                  }
+                }'>
+                  <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                      <h2 class="display-2 from-start mb-lg-4 playwrite-au-tas-400 text-shadow-black">Maria &amp; Sergio</h2>
+                      <div class="from-end">
+                        <p class="fs-1 text-light text-shadow-black">
+                          <b>- Fecha reservada -</b>
+                        </p>
+                      </div>
+                      <div class="scale-up delay-1">
+                        <p class="fs-2 text-light text-shadow-black">
+                          <b>Sábado, 12 de Diciembre de 2026</b>
+                        </p>
+                      </div>
+
+                      <cuenta-regresiva event-date="2026-12-12 20:00:00" background-color="rgb(0 0 0 / 75%)" animation-class="scale-up"></cuenta-regresiva>
+
+                    </div>
+
+                  </div>
+
+                  <div class="swiper-pagination position-relative d-md-none pt-2 mt-5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="position-relative py-5">
+        <div class="container position-relative zindex-5 pt-5">
+          <div class="row justify-content-center text-center pb-5">
+            <div class="col-md-10">
+              <h2 class="h1 mb-lg-4 color-main">¡Nos casamos!</h2>
+              <p class="fs-3 text-body mb-0">En la vida hay momentos que soñamos y esperamos con ilusión. Uno de esos momentos ha llegado y queremos compartirlo contigo.</p>
+            </div>
+          </div>
+
+          <div class="row align-items-center justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+            <div class="col-11 col-md-6 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div class="parallax" style="max-width: 636px; transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                <div class="parallax-layer" data-depth="0.1" style="transform: translate3d(-4.4px, 0.7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                  <picture>
+                    <source srcset="./storage/invitation-types/demos/boda/bienvenida.jpg">
+                    <img src="./storage/invitation-types/demos/boda/bienvenida.jpg" class="d-dark-mode-none rounded-3" style="box-shadow: 0 10.2px 41px -6.8px rgba(212, 175, 55, .35);" alt="Maria y Sergio">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 text-center">
+              <p class="fs-3 text-body mb-0 text-center">
+                "Nos encantaría que estés con nosotros en este día tan especial"
+              </p>
+              <br>
+              <br>
+            </div>
+          </div>
+
+
+          <div class="row justify-content-center text-center">
+            <div class="col-md-10">
+              <h2 class="h1 mb-lg-4 color-main">Papás del novio</h2>
+              <p class="fs-3 text-body mb-0">Teresa Reyes Flores</p>
+              <p class="fs-3 text-body mb-0">y</p>
+              <p class="fs-3 text-body mb-0">Daniel Alberto López Pérez</p>
+
+              <br>
+              <br>
+
+              <h2 class="h1 mb-lg-4 color-main">Papás de la novia</h2>
+              <p class="fs-3 text-body mb-0">Francisca Ruiz Dominguez</p>
+              <p class="fs-3 text-body mb-0">y</p>
+              <p class="fs-3 text-body mb-0">Viridiana Vargas Velázquez</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="position-absolute top-0 start-0 w-100 h-100"></div>
+      </section>
+
+
+      <section class="my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3">
+        <div class="container">
+          <h2 class="h1 mt-xl-3 mb-4 pb-3 text-center color-main">Recepción</h2>
+
+          <div class="tab-content mb-xl-3 py-4 rounded-3 bg-light">
+            <div class="tab-pane fade show active" role="tabpanel">
+              <div class="row align-items-center pt-3 pt-sm-4 pt-md-0 px-3 px-sm-4 px-lg-0">
+                <div class="col-lg-5 offset-lg-1 text-center text-md-start">
+                  <h3 class="h2 mb-lg-4 mb-3 color-main">Salon de eventos <br> Vista Real</h3>
+                  <p class="mb-4 pb-lg-3 fs-4">
+                    <i class='bx bxs-calendar-event color-main'></i> Sábado, 12 de Diciembre de 2026.
+                    <br>
+                    <i class='bx bx-time-five color-main'></i> 18:00 hrs.
+                  </p>
+
+                  <p class="mb-4 pb-lg-3 fs-5">
+                    <i class='bx bx-map color-main'></i> Prosperidad 11, Gabriel gutierrez zepeda, 29045 Tuxtla Gutiérrez, Chis.
+                  </p>
+
+                  <a href="https://maps.app.goo.gl/qRApErAABe2MaRzs5" target="_blank" class="btn btn-outline-primary shadow-lg fs-5 mb-3 mb-md-0">
+                    <img width="45px" src="./storage/icons/google-maps.png" class="me-2" alt="" />
+                    Google maps
+                  </a>
+                </div>
+                <div class="col-lg-5 mt-4 pt-md-0 pt-2">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.5797902743393!2d-93.0651392!3d16.7478058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed27aea84f0cdb%3A0xbaf5d83851a87ec9!2sSalon%20de%20eventos%20Vista%20Real!5e0!3m2!1ses!2smx!4v1793991067412!5m2!1ses!2smx" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3">
+        <div class="container text-center">
+          <div class="mb-5">
+            <h2 class="h1 mt-xl-3 mb-4 pb-3 color-main">Código de Vestimenta</h2>
+          </div>
+
+          <div class="row align-items-center justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+            <div class="col-md-5 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div><img width="150px" src="./storage/invitation-types/demos/boda/vestido-largo.png" alt="Vestido"></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Mujeres</h2>
+              <p class="fs-3 text-body mb-5"><b>Semi formal</b></p>
+            </div>
+
+            <div class="col-md-5 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div><img width="150px" src="./storage/invitation-types/demos/boda/traje.png" alt="Traje"></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Hombres</h2>
+              <p class="fs-3 text-body mb-5"><b>Semi formal</b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="jarallax bg-dark parallax-img-section" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 parallax-img-section" style="background-color: rgba(0,0,0,0.3);"></span>
+        <div class="jarallax-img" style="background-image: url(./storage/invitation-types/demos/boda/portada-1.jpg); background-position: center center !important; background-size: cover !important;"></div>
+        <div class="position-relative text-center zindex-5 overflow-hidden parallax-img-section"></div>
+      </section>
+
+
+      <section class="my-5 pt-xl-5 pt-lg-4 pt-md-3 pb-lg-5 pb-md-4 pb-3">
+        <div class="container text-center">
+          <div class="mb-5">
+            <h2 class="h1 mt-xl-3 mb-4 pb-3 color-main">Programa del evento</h2>
+            <p class="fs-3 text-body mb-0">¡Acompañanos a celebrar!</p>
+          </div>
+
+          <div class="row justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div><img width="75px" src="./storage/invitation-types/demos/boda/recepcion.svg" alt=""></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Recepción</h2>
+              <p class="fs-5 text-body mb-5">Disfruta de un refrescante cocktail y captura el momento con una foto</p>
+            </div>
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div><img width="75px" src="./storage/invitation-types/demos/boda/primer-baile.svg" alt=""></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Primer baile</h2>
+              <p class="fs-5 text-body mb-5">Ven a compartir el instante más emotivo de la fiesta</p>
+            </div>
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0 border-end-0 border-end-md">
+              <div><img width="75px" src="./storage/invitation-types/demos/boda/banquete.svg" alt=""></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Banquete</h2>
+              <p class="fs-5 text-body mb-5">Disfrutemos juntos de una cena exquisita</p>
+            </div>
+
+            <div class="col-md-2 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div><img width="75px" src="./storage/invitation-types/demos/boda/baile.svg" alt=""></div>
+              <h2 class="h3 mb-lg-4 color-main mt-5">Baile</h2>
+              <p class="fs-5 text-body mb-5">¡Muestra tus pasos de baile más espectaculares!</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="position-relative">
+        <div class="container position-relative zindex-5 py-5">
+          <div class="row align-items-center justify-content-center py-4 py-md-5 my-2 my-sm-3 my-md-0 my-xl-3">
+
+            <div class="col-md-5 text-center">
+              <h2 class="h2 mb-lg-4 color-main">Dimos el gran paso...</h2>
+
+              <figure>
+                <blockquote class="blockquote d-flex">
+                  <div><i class='bx bxs-quote-alt-left'></i></div>
+                  <p class="fs-3">Te quiero no por quien eres, sino por quien soy cuando estoy contigo.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mt-2">
+                  <cite title="Maria &amp; Sergio" class="fs-4">Maria &amp; Sergio</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-11 col-md-5 pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
+              <div class="swiper swiper-nav-onhover" data-swiper-options='{
+                "spaceBetween": 20,
+                "loop": true,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true
+                },
+                "navigation": {
+                  "prevEl": ".btn-prev",
+                  "nextEl": ".btn-next"
+                }
+              }'>
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="ratio ratio-16x9 bg-black">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center display-4">
+                        <img src="./img/1.jpg" class="img-fluid rounded" alt="Foto 1">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="ratio ratio-16x9 bg-black">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center display-4">
+                        <img src="./img/2.jpg" class="img-fluid rounded" alt="Foto 2">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="ratio ratio-16x9 bg-black">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center display-4">
+                        <img src="./img/3.jpg" class="img-fluid rounded" alt="Foto 3">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="ratio ratio-16x9 bg-black">
+                      <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center display-4">
+                        <img src="./img/4.jpg" class="img-fluid rounded" alt="Foto 4">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <button type="button" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Anterior">
+                  <i class="bx bx-chevron-left"></i>
+                </button>
+
+                <button type="button" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Siguiente">
+                  <i class="bx bx-chevron-right"></i>
+                </button>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bg-light my-5 pt-5 pb-5">
+        <div class="container text-center">
+          <div class="mb-5">
+            <h2 class="h1 mt-3 mb-4 pb-3 color-main">Mesa de regalos</h2>
+            <p class="fs-4 text-body mb-0">
+              Tu compañía es el mejor regalo para nosotros, pero si quieres sorprendernos, un detalle será bien recibido.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bg-size-cover bg-position-bottom-center bg-repeat-0 py-5">
+        <div class="container">
+
+          <div class="row align-items-center pt-md-2 pt-lg-5 pb-2 pb-md-4">
+            <div class="col-12 col-md-5 pt-3 text-center mt-3">
+              <h2 class="h1 mb-4 color-main">Confirma tu asistencia</h2>
+              <p class="lead pb-3 mb-5 text-body">
+                Nos encantaría contar con tu presencia en este día especial, por favor confirma tu asistencia a la brevedad
+              </p>
+            </div>
+            <div class="col-lg-6 offset-md-1 pt-3 pt-md-4 pt-lg-3 mt-3">
+              <form class="needs-validation" novalidate onsubmit="return false;">
+                <h2 class="h3 mb-5 text-center color-main">¿Asistirás a nuestra boda?</h2>
+
+                <div class="alert alert-secondary text-center fs-5">
+                  ¡Vamos a hacer de esta noche algo <u>inolvidable</u>!
+                </div>
+
+                <div class="row g-4">
+                  <div class="col-12 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=+5218130731783&amp;text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"
+                        class="btn btn-block rounded-pill w-100 btn-lg fs-4 line-height-1 btn-primary">
+                      <i class='bx bxs-paper-plane me-2' style="color:#000"></i> Confirmar Asistencia
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+      
+
+    </main>
+
+    <script src="./assets/site/js/invite-A16.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="./assets/site/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/site/vendor/parallax-js/dist/parallax.min.js"></script>
+    <script src="./assets/site/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/site/vendor/lightgallery/lightgallery.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="./assets/site/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="./assets/site/js/theme.min.js"></script>
+  </body>
+</html>
